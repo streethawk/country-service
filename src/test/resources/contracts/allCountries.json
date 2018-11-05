@@ -1,0 +1,120 @@
+{
+  "_embedded": {
+    "countries": [
+      {
+        "name": "Afghanistan",
+        "_links": {
+          "self": {
+            "href": "http://localhost/countries/1"
+          },
+          "country": {
+            "href": "http://localhost/countries/1"
+          }
+        }
+      },
+      {
+        "name": "Bhutan",
+        "_links": {
+          "self": {
+            "href": "http://localhost/countries/2"
+          },
+          "country": {
+            "href": "http://localhost/countries/2"
+          }
+        }
+      },
+      {
+        "name": "China",
+        "_links": {
+          "self": {
+            "href": "http://localhost/countries/3"
+          },
+          "country": {
+            "href": "http://localhost/countries/3"
+          }
+        }
+      },
+      {
+        "name": "Denmark",
+        "_links": {
+          "self": {
+            "href": "http://localhost/countries/4"
+          },
+          "country": {
+            "href": "http://localhost/countries/4"
+          }
+        }
+      },
+      {
+        "name": "Egypt",
+        "_links": {
+          "self": {
+            "href": "http://localhost/countries/5"
+          },
+          "country": {
+            "href": "http://localhost/countries/5"
+          }
+        }
+      },
+      {
+        "name": "Finland",
+        "_links": {
+          "self": {
+            "href": "http://localhost/countries/6"
+          },
+          "country": {
+            "href": "http://localhost/countries/6"
+          }
+        }
+      },
+      {
+        "name": "Holland",
+        "_links": {
+          "self": {
+            "href": "http://localhost/countries/7"
+          },
+          "country": {
+            "href": "http://localhost/countries/7"
+          }
+        }
+      },
+      {
+        "name": "Iran",
+        "_links": {
+          "self": {
+            "href": "http://localhost/countries/8"
+          },
+          "country": {
+            "href": "http://localhost/countries/8"
+          }
+        }
+      },
+      {
+        "name": "North Korea",
+        "_links": {
+          "self": {
+            "href": "http://localhost/countries/9"
+          },
+          "country": {
+            "href": "http://localhost/countries/9"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost/countries{?page,size,sort}",
+      "templated": true
+    },
+    "profile": {
+      "href": "http://localhost/profile/countries"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 9,
+    "totalPages": 1,
+    "number": 0
+  }
+}
